@@ -1,0 +1,120 @@
+.contact-hd{
+  margin-top: 150px;
+  color: darkblue;
+  text-align: left;
+  font-size:45px;
+}
+@media only screen and (min-width:600px){
+   /* .contact-container{
+     /* margin:2% 4%;
+     margin-top: 150px;
+    }*/
+    .acri-cont-inp{
+      background: #ffff;
+      border-radius: 8px;
+      border-width: thin;
+      border-color: midnightblue;
+      width:80% !important;
+      padding:2% 8px;
+      margin:2%;
+    }
+    .location-container{
+      padding-top: 3%;
+      position: relative;
+      padding-left:4%;
+      border-left:1px solid midnightblue;
+    }
+    .contact-hd{
+      margin-top: 150px;
+      color: darkblue;
+      text-align: left;
+    }
+    .location-maps{
+      max-width:1000px;
+      height:auto;
+    }
+    .acri-submit-btn{
+     /* border-radius:2px;*/
+      width:40%;
+      margin:5px;
+      border:none;
+      border-color: white;
+      text-align:center;
+    }
+    .acri-textarea{
+      height: 5%;
+    }
+    .acri-submit-btn{
+      border-radius: 4px;
+      border-width: thin;
+      border-color: white;
+      color: white;
+      width:20%;
+      padding: 2% 3%;
+      background-color:midnightblue;
+    }
+  }
+  .input-container{
+    margin-top: 4%;
+    margin-left: 2%;}
+  
+  @media only screen and (max-width:600px){
+    .contact-hd{
+      margin-top: 150px;
+      color: darkblue;
+      text-align: left;
+      font-size:30px;
+    }
+    .acri-textarea{
+      height: 5%;
+    }
+  .input-container h3{
+    font-size: 15px;}
+    .acri-cont-inp{
+      background: #ffff;
+      border-radius: 8px;
+      border-width: thin;
+      border-color: midnightblue;
+      width:80% !important;
+      padding:2% 8px;
+      margin:2%;
+    }
+    .acri-submit-btn{
+      border-radius:4px;
+      border-width: thin;
+      border-color: white;
+    }
+    .acri-submit-btn{
+      margin-left: 3%;
+      border-radius: 4px;
+      border-width: thin;
+      border-color: white;
+      color: white;
+      width:30%;
+      padding: 2% 3%;
+      background-color:midnightblue;
+    }
+  }
+  
+  .acri-submit-hover{
+    font-size: 16px;
+    font-style: normal;
+  }
+  .acri-submit-icon-hover{
+    font-size: 0px;
+    font-style: inherit;
+    font-weight:bolder;
+  }
+  .acri-submit-btn:hover .acri-submit-hover .acri-submit-icon-hover {
+    font-style: italic;
+    font-size: 16px;
+    transition: 0.5s
+  }
+  .acri-submit-btn:hover{
+    background-color: white;
+    color:midnightblue;
+    transition: 0.5s;
+  }
+  ::placeholder{
+    color:darkgrey
+  }

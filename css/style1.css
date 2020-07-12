@@ -1,0 +1,41 @@
+#heading1{
+    margin-top: 150px;
+    color: darkblue;
+    text-align: left;
+    
+}
+.faq-block{
+    background-color: #4B95C5;
+    color: white;
+    width:200px;
+    font-family: inherit;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#text{
+    text-align: center;
+    font-size: 25px;
+}
+.faq-block-th{
+    background-color: #4B95C5;
+    color: white;
+    width:300px;
+    font-family: inherit;
+    text-align: left;
+    padding-top: 7px;
+    margin-top: 20px;
+    font-size: 29px;
+   display: inline-block;
+   white-space: nowrap;
+   padding-bottom: 7px;
+   margin-bottom: 40px;
+
+}
+.container p{
+    text-align: left;
+}
+#text2{
+    text-align: center;
+
+}

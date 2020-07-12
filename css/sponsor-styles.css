@@ -1,0 +1,49 @@
+
+  .acri-spns-text{
+    text-align:justify;
+  }
+  
+  .heading-sponsor{
+    margin-top: 150px;
+    color:midnightblue;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px blue;
+    font-size: 45px;
+    text-align: left;
+  }
+  .underline{
+    color: blue;
+    border-width:thin;
+  }
+  .acri-exp{
+    font-size: 20px;
+    color:midnightblue;
+    font-style: italic;
+    font-weight: 650;
+  }
+  .ss-img {
+    padding: 10px 10%;
+    width: -moz-max-content;
+  }
+  .ss-img .acri-ss-img {
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+    margin-right: 10px;
+  }
+  .ss-img .acri-ss-img img {
+    width: 100%;
+    background: #000;
+    min-height: 85px;
+  }
+  
+  @media only screen and (max-width:600px){
+    .heading-sponsor{
+    margin-top: 150px;
+    color:midnightblue;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px blue;
+    font-size: 30px;
+    text-align: left;
+  }
+}
